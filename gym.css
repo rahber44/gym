@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url("rahber4 jpg.jpg") no-repeat center center/cover;
+    height: 800px;
+    
+}
+
+.head1 {
+
+    display: inline-block;
+    padding: 2px;
+    margin: auto;
+    position: absolute;
+    left: 39px;
+    top: 30px;
+}
+
+.head2 {
+    border: 2px solid violet;
+    background-color:#aa6bab87;
+    border-radius: 40px;
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.head3 {
+
+    display: inline-block;
+    padding: 2px;
+    margin: auto;
+    position: absolute;
+    right: 39px;
+    top: 30px
+}
+
+.head1 img {
+    width: 76px;
+    margin: 0px 47px;
+    
+}
+
+.head1 div {
+    text-align: center;
+
+}
+
+.head2 ul {
+    display: inline-block;
+}
+
+.head2 ul li {
+    display: inline-block;
+    margin: auto 3px;
+    padding: 4px 14px;
+    text-decoration: none;
+}
+
+.head2 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.head2 ul li a:hover {
+    color: aliceblue;
+}
+
+.head2 ul li a:hover,
+.head2 ul li a.center {
+    text-decoration: underline;
+    color:grey;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 10px;
+    padding: 6px 5px;
+    color: rgb(68, 0, 255);
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: rgb(190, 155, 223);
+
+}
+
+.container {
+    border: 5px solid rgb(77, 14, 14);
+    width: 23%;
+    margin: 108px 41px;
+    padding: 45px 28px;
+    position: absolute;
+    left: 10px;
+    background-color: rgb(156, 115, 115);
+    border-radius: 28px;
+}
+
+.form-group input {
+    border-radius: 12px;
+    text-align: center;
+    margin: 8px auto;
+    padding: 6px 67px;
+    display: block;
+    width: 50%;
+}
+
+h3 {
+    color: black;
+}
+
+.form-group button {
+    font-size: medium;
+    background-color: rgb(19, 66, 107);
+    margin: auto;
+    padding: 3px 32px;
+    display: block;
+    border-radius: 20px;
+}
